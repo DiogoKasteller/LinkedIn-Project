@@ -1,0 +1,120 @@
+header {
+    background-color: white;
+    height: 52px;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    justify-content: space-evenly;
+}
+
+.left-section {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.logo-icon {
+    margin-right: 8px;
+    height: 34px;
+    width: 34px;
+    cursor: pointer;
+}
+
+.search-area {
+    display: flex;
+    align-items: center;
+    height: 34px;
+    width: 240px;
+    background-color: rgb(238, 243, 248);
+    padding-left: 38px;
+    border: none;
+    background-image: url("/icons/search-icon-blue.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 12px;
+    border-radius: 4px;
+}
+
+.search-icon-blue {
+    padding-right: 6px;
+    height: 20px;
+}
+
+.right-section {
+    display: flex;
+    position: relative;
+}
+
+.right-section-icons,
+.right-section-home-icon,
+.right-section-profile-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.right-section-icons img,
+.right-section-home-icon img,
+.right-section-profile-icon img {
+    height: 24px;
+    width: 24px;
+    margin-bottom: 2px;
+}
+
+.right-section-icons span,
+.right-section-home-icon span,
+.right-section-profile-icon span {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.right-section-home-icon {
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+}
+
+.right-section-profile-icon {
+    border-right: 1.5px solid rgb(235, 235, 235);
+    box-sizing: border-box;
+}
+
+.profile-icon,
+.solutions-icon {
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-icon img,
+.solutions-icon img {
+    height: 12px;
+    width: 14px;
+}
+
+.become-premium-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+    width: 125px;
+    height: 52px;
+    color: #915907;
+}
+
+.become-premium-text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
