@@ -1,0 +1,46 @@
+.body-flexbox {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 68px;
+}
+
+.body-left-section,
+.body-middle-section,
+.body-right-section {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.identity-container,
+.picture-background,
+.identity-picture {
+    display: flex;
+    position: relative;
+}
+
+.identity-container {
+    flex-direction: column;
+    width: 225px;
+    height: 375px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(235, 235, 235);
+}
+
+.picture-background {
+    background-color: rgb(154, 171, 184);
+    width: 100%;
+    height: 56.25px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.identity-picture {
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 68px;
+    height: 68px;
+}

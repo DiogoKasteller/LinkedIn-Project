@@ -6,15 +6,17 @@
 
         <link rel="stylesheet" type="" href="/styles/general.css">
         <link rel="stylesheet" href="/styles/header.css">
+        <link rel="stylesheet" href="/styles/body.css">
     </head>
     <body>
         <header class="header">
-            <div class="left-section">
+            <div class="header-left-section">
                 <img class="logo-icon" src="icons/linkedin.png">
                 <input class="search-area" type="text" placeholder="Pesquisar">                
             </div>
-            <div class="right-section">
+            <div class="header-right-section">
                 <div class="right-section-home-icon">
+                    <div class="home-unread-icon"></div>
                     <img src="icons/home-icon.PNG">
                     <span>Início</span>
                 </div>
@@ -27,10 +29,12 @@
                     <span>Vagas</span>
                 </div>
                 <div class="right-section-icons">
+                    <div class="unread-icon">3</div>
                     <img src="icons/messages-icon.PNG">
                     <span>Mensagens</span>
                 </div>
                 <div class="right-section-icons">
+                    <div class="unread-icon">1</div>
                     <img src="icons/notifications-icon.PNG">
                     <span>Notificações</span>
                 </div>
@@ -53,5 +57,18 @@
                 </div>
             </div>
         </header>
+
+        <main>
+            <div class="body-flexbox">
+                <div class="body-left-section">
+                    <div class="identity-container">
+                        <div class="picture-background"></div>
+                        <img class="identity-picture" src="pictures/identity-picture.jpg">
+                    </div>
+                </div>
+                <div class="body-middle-section"></div>
+                <div class="body-right-section"></div>
+            </div>
+        </main>
     </body>
 </html>
